@@ -20,7 +20,7 @@ $post->commentAsUser($user, 'This is a comment from someone else');
 You can install the package via composer:
 
 ```bash
-composer require zepson/laravel-comments:dev-master
+composer require zepson/laravel-comments
 ```
 
 The package will automatically register itself.
