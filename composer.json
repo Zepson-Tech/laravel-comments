@@ -1,0 +1,52 @@
+{
+    "name": "zepson/laravel-comments",
+    "description": "Add comments to your Laravel application",
+    "keywords": [
+        "zepson",
+        "comments",
+        "laravel-comments"
+    ],
+    "homepage": "https://github.com/pro-cms/laravel-comments",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Novath Thomas & Jofrey Abraham",
+            "email": "zepsoncompany@gmail.com",
+            "homepage": "https://zepson.co.tz",
+            "role": "Developers"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.6|^5.0",
+        "phpunit/phpunit": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "zepson\\Comments\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "zepson\\Comments\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "zepson\\Comments\\CommentsServiceProvider"
+            ]
+        }
+    }
+}
