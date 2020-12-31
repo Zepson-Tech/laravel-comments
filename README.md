@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/zepson/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/zepson/laravel-comments)
 [![Build Status](https://img.shields.io/travis/zepson/laravel-comments/master.svg?style=flat-square)](https://travis-ci.org/zepson/laravel-comments)
-[![Quality Score](https://img.shields.io/scrutinizer/g/zepson/laravel-comments.svg?style=flat-square)](https://scrutinizer-ci.com/g/zepson/laravel-comments)
+[![Quality Score](https://img.shields.io/scrutinizer/g/zepson/laravel-comments.svg?style=flat-square)](https://scrutinizer-ci.com/g/Zepson-Technologies/laravel-comments)
 [![Total Downloads](https://img.shields.io/packagist/dt/zepson/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/zepson/laravel-comments)
 
 Add the ability to associate comments to your Laravel Eloquent models. The comments can be approved and nested.
