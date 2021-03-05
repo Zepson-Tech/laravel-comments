@@ -6,6 +6,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/zepson/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/zepson/laravel-comments)
 
 Add the ability to associate comments to your Laravel Eloquent models. The comments can be approved and nested.
+Read Article on zepson website  https://zepson.co.tz/index.php/2020/12/31/laravel-comments-package/
 
 ```php
 $post = Post::find(1);
