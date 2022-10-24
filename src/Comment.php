@@ -1,10 +1,10 @@
 <?php
 
-namespace zepson\Comments;
+namespace quickcamx\Comments;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use zepson\Comments\Traits\HasComments;
+use quickcamx\Comments\Traits\HasComments;
 
 class Comment extends Model
 {

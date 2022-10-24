@@ -1,10 +1,10 @@
 <?php
 
-namespace zepson\Comments\Traits;
+namespace quickcamx\Comments\Traits;
 
 
 use Illuminate\Database\Eloquent\Model;
-use zepson\Comments\Contracts\Commentator;
+use quickcamx\Comments\Contracts\Commentator;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait HasComments

@@ -1,6 +1,6 @@
 <?php
 
-namespace zepson\Comments;
+namespace quickcamx\Comments;
 
 use Illuminate\Support\ServiceProvider;
 

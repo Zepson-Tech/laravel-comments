@@ -1,8 +1,8 @@
 {
-    "name": "zepson/laravel-comments",
+    "name": "quickcamx/laravel-comments",
     "description": "Add comments to your Laravel application",
     "keywords": [
-        "zepson",
+        "quickcamx",
         "comments",
         "laravel-comments"
     ],
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "zepson\\Comments\\": "src"
+            "quickcamx\\Comments\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "zepson\\Comments\\Tests\\": "tests"
+            "quickcamx\\Comments\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "zepson\\Comments\\CommentsServiceProvider"
+                "quickcamx\\Comments\\CommentsServiceProvider"
             ]
         }
     }

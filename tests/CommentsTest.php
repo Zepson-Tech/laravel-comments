@@ -1,9 +1,9 @@
 <?php
 
-namespace zepson\Comments\Tests;
+namespace quickcamx\Comments\Tests;
 
-use zepson\Comments\Tests\Models\ApprovedUser;
-use zepson\Comments\Tests\Models\Post;
+use quickcamx\Comments\Tests\Models\ApprovedUser;
+use quickcamx\Comments\Tests\Models\Post;
 use Illuminate\Foundation\Auth\User;
 
 class CommentsTest extends TestCase

@@ -1,10 +1,10 @@
 <?php
 
-namespace zepson\Comments\Tests;
+namespace quickcamx\Comments\Tests;
 
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Database\Schema\Blueprint;
-use zepson\Comments\CommentsServiceProvider;
+use quickcamx\Comments\CommentsServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {

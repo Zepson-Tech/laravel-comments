@@ -1,9 +1,9 @@
 <?php
 
-namespace zepson\Comments\Tests\Models;
+namespace quickcamx\Comments\Tests\Models;
 
 use Illuminate\Foundation\Auth\User;
-use zepson\Comments\Contracts\Commentator;
+use quickcamx\Comments\Contracts\Commentator;
 
 class ApprovedUser extends User implements Commentator
 {

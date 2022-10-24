@@ -1,6 +1,6 @@
 <?php
 
-namespace zepson\Comments\Traits;
+namespace quickcamx\Comments\Traits;
 
 
 trait CanComment

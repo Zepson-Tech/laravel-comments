@@ -1,6 +1,6 @@
 <?php
 
-namespace zepson\Comments\Contracts;
+namespace quickcamx\Comments\Contracts;
 
 
 interface Commentator
